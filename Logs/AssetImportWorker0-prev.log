@@ -1,0 +1,809 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.26f1 (7298b473bc1a) revision 7510196'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16319 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.26f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+F:/GAMEPLAY 2 2023/Animations
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50817
+Successfully changed project path to: F:/GAMEPLAY 2 2023/Animations
+F:/GAMEPLAY 2 2023/Animations
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 31.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.26f1 (7298b473bc1a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/GAMEPLAY 2 2023/Animations/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 (ID=0x2184)
+    Vendor:   
+    VRAM:     5980 MB
+    Driver:   31.0.15.2647
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001857 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 31.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.535 seconds
+Domain Reload Profiling:
+	ReloadAssembly (535ms)
+		BeginReloadAssembly (51ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (416ms)
+			LoadAssemblies (48ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (140ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (153ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (31ms)
+				BeforeProcessingInitializeOnLoad (15ms)
+				ProcessInitializeOnLoadAttributes (76ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003729 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.912 seconds
+Domain Reload Profiling:
+	ReloadAssembly (913ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (723ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (256ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (269ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (179ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1521 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.1 MB.
+System memory in use after: 95.2 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1972.
+Total: 2.395700 ms (FindLiveObjects: 0.122700 ms CreateObjectMapping: 0.043500 ms MarkObjects: 2.140300 ms  DeleteObjects: 0.088400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/rpg-tutorial-assets/Models
+  artifactKey: Guid(0630eb1b29a93fc45979875c24130075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/rpg-tutorial-assets/Models using Guid(0630eb1b29a93fc45979875c24130075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1073c78e4e7de58dccd3184ee9422b06') in 0.010668 seconds 
+  Import took 0.012802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/rpg-tutorial-assets/Models/Campfire
+  artifactKey: Guid(dca5176348a52ff40b19839115703c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/rpg-tutorial-assets/Models/Campfire using Guid(dca5176348a52ff40b19839115703c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c345a3ccc180f1fdb016befbed6bd410') in 0.007282 seconds 
+  Import took 0.009309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/rpg-tutorial-assets/Models/Campfire/Campfire.fbx
+  artifactKey: Guid(939fe16618477784d801092927e78466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/rpg-tutorial-assets/Models/Campfire/Campfire.fbx using Guid(939fe16618477784d801092927e78466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46caefe499fac091cb1ff9de9068c608') in 0.245681 seconds 
+  Import took 0.248015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/rpg-tutorial-assets
+  artifactKey: Guid(b36b2e2d483122d4f9bd174b6e01cf5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/rpg-tutorial-assets using Guid(b36b2e2d483122d4f9bd174b6e01cf5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66857b8d7ba5bb28c08aa79d9ea41771') in 0.009130 seconds 
+  Import took 0.011388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052890 seconds.
+  path: Assets/rpg-tutorial-assets/Models/Campfire/Textures
+  artifactKey: Guid(d44db3fc561307149893b2d6e7de3e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/rpg-tutorial-assets/Models/Campfire/Textures using Guid(d44db3fc561307149893b2d6e7de3e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd65ab87d950ada9ce4935dd108a189c1') in 0.007630 seconds 
+  Import took 0.010151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.066392 seconds.
+  path: Assets/rpg-tutorial-assets/Models/Campfire/Textures/Logs_Diffuse.png
+  artifactKey: Guid(6fe3852be9b98dc4bbd041495e5a2b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/rpg-tutorial-assets/Models/Campfire/Textures/Logs_Diffuse.png using Guid(6fe3852be9b98dc4bbd041495e5a2b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fac69dc7170f2ecfac3732dd80902e9b') in 0.030193 seconds 
+  Import took 0.034405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/rpg-tutorial-assets/Models/Campfire/Textures/StoneBase_Diffuse.png
+  artifactKey: Guid(37a012833b4d3f74f8100987f4ec1ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/rpg-tutorial-assets/Models/Campfire/Textures/StoneBase_Diffuse.png using Guid(37a012833b4d3f74f8100987f4ec1ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95271bd1f29010814066a21aa5698fcb') in 0.028480 seconds 
+  Import took 0.030616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.706421 seconds.
+  path: Assets/rpg-tutorial-assets/Sprites
+  artifactKey: Guid(316999eded77a3d448c6f83c572df54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/rpg-tutorial-assets/Sprites using Guid(316999eded77a3d448c6f83c572df54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b0f705eab7cf30d534e18149bdfdac4') in 0.010022 seconds 
+  Import took 0.012516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051102 seconds.
+  path: Assets/rpg-tutorial-assets/Sprites/CloseButton.png
+  artifactKey: Guid(f69f148b0af85144c846d6d003fb1370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/rpg-tutorial-assets/Sprites/CloseButton.png using Guid(f69f148b0af85144c846d6d003fb1370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb65df5f2aeacfc6bfda1e1d6719769') in 0.018406 seconds 
+  Import took 0.020898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/rpg-tutorial-assets/Sprites/Panel.png
+  artifactKey: Guid(fc5f4793bbf6623478ead93d705bc952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/rpg-tutorial-assets/Sprites/Panel.png using Guid(fc5f4793bbf6623478ead93d705bc952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ac03c6399052cbf29f8d6e88e4210d') in 0.023194 seconds 
+  Import took 0.025297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/rpg-tutorial-assets/Sprites/Icon.png
+  artifactKey: Guid(dffc121b3d7f2234293d3bbd30a7e841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/rpg-tutorial-assets/Sprites/Icon.png using Guid(dffc121b3d7f2234293d3bbd30a7e841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc3fc3db39ac26addc1b46bf4aadeb46') in 0.013449 seconds 
+  Import took 0.015671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/rpg-tutorial-assets/Sprites/Placeholder01.png
+  artifactKey: Guid(cfc9609efa67a2740bc32f074dc1b00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/rpg-tutorial-assets/Sprites/Placeholder01.png using Guid(cfc9609efa67a2740bc32f074dc1b00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd42b5e9afb2a3bdc15d740eea715b962') in 0.020258 seconds 
+  Import took 0.022693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/rpg-tutorial-assets/Sprites/Placeholder02.png
+  artifactKey: Guid(eaa6d3b9d70a595409e55e15439ebfef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/rpg-tutorial-assets/Sprites/Placeholder02.png using Guid(eaa6d3b9d70a595409e55e15439ebfef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '029364b88406d59a5ab729bf7fd009f1') in 0.017994 seconds 
+  Import took 0.020284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 200.619732 seconds.
+  path: Assets/rpg-tutorial-assets/RPG Environment.unitypackage
+  artifactKey: Guid(ad8af1d53d4cf8146880ac698272e2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/rpg-tutorial-assets/RPG Environment.unitypackage using Guid(ad8af1d53d4cf8146880ac698272e2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7907d484e67df6bd7bb72e6c38359735') in 0.011152 seconds 
+  Import took 0.014157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 64.734616 seconds.
+  path: Assets/Environment/CC.asset
+  artifactKey: Guid(bc7ef57070e716341add7384478da609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/CC.asset using Guid(bc7ef57070e716341add7384478da609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e401e4840600fe95552ef6921d82f828') in 0.014273 seconds 
+  Import took 0.016911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.386935 seconds.
+  path: Assets/Environment/Example.unity
+  artifactKey: Guid(93f3bc3a6fb0a6d42ac99d6f4d15642c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Example.unity using Guid(93f3bc3a6fb0a6d42ac99d6f4d15642c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05671dc73301bc5109da7306e043f6fc') in 0.009600 seconds 
+  Import took 0.012275 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.21 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 115 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.4 MB.
+System memory in use after: 73.4 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2097.
+Total: 4.019400 ms (FindLiveObjects: 0.148900 ms CreateObjectMapping: 0.045800 ms MarkObjects: 3.102600 ms  DeleteObjects: 0.721000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  colorSpace: 1 -> 0
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003647 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.896 seconds
+Domain Reload Profiling:
+	ReloadAssembly (897ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (730ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (263ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (265ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (175ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1608 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.2 MB.
+System memory in use after: 102.2 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2099.
+Total: 2.964800 ms (FindLiveObjects: 0.119800 ms CreateObjectMapping: 0.041500 ms MarkObjects: 2.178100 ms  DeleteObjects: 0.624600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004562 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.068 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1068ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (880ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (336ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (313ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (214ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1608 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.3 MB.
+System memory in use after: 102.2 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 2101.
+Total: 3.402000 ms (FindLiveObjects: 0.165200 ms CreateObjectMapping: 0.059400 ms MarkObjects: 2.303500 ms  DeleteObjects: 0.872900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 672.759085 seconds.
+  path: Assets/rpg-tutorial-assets/Models/Wooden Stool/WoodenStool.fbx
+  artifactKey: Guid(722209bc20ac2f24aa1569d4f37d0f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/rpg-tutorial-assets/Models/Wooden Stool/WoodenStool.fbx using Guid(722209bc20ac2f24aa1569d4f37d0f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd81d407b3e8f6431d101836eb154519e') in 0.182770 seconds 
+  Import took 0.185569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Environment/Models/WoodenStool/WoodenStool.fbx
+  artifactKey: Guid(f303bf3915de2fb4096c4508b07da6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Models/WoodenStool/WoodenStool.fbx using Guid(f303bf3915de2fb4096c4508b07da6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d554e427e0a420c8fa1ab233922bf0a') in 0.020957 seconds 
+  Import took 0.023294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Environment/Models/Campfire/Campfire.fbx
+  artifactKey: Guid(b32d69822580d39458759da41c6a784f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Models/Campfire/Campfire.fbx using Guid(b32d69822580d39458759da41c6a784f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa0a0363f0a9910fa10ee3166c12205e') in 0.048454 seconds 
+  Import took 0.051071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/rpg-tutorial-assets/Models/Street Lamp/StreetLamp.fbx
+  artifactKey: Guid(43ae54f88e9054e41a2229f5c60d564f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/rpg-tutorial-assets/Models/Street Lamp/StreetLamp.fbx using Guid(43ae54f88e9054e41a2229f5c60d564f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0191f7dcf5028292c55f088f59ba12de') in 0.064069 seconds 
+  Import took 0.066469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Environment/Models/StreetLamp/StreetLamp.fbx
+  artifactKey: Guid(220499ee7b8406e479c6d05317305e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Models/StreetLamp/StreetLamp.fbx using Guid(220499ee7b8406e479c6d05317305e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd16ed28cff6700687d546c1af90711c9') in 0.055966 seconds 
+  Import took 0.058345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.887097 seconds.
+  path: Assets/Environment/Models/Rocks/StoneSize3.fbx
+  artifactKey: Guid(008dba9b60137e442a2a994ee0cabdc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Models/Rocks/StoneSize3.fbx using Guid(008dba9b60137e442a2a994ee0cabdc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99296e566e9c11e2bb63acae35e3a588') in 0.035717 seconds 
+  Import took 0.042067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020085 seconds.
+  path: Assets/Environment/Models/Rocks/StoneSize2.fbx
+  artifactKey: Guid(92aa5837890e21142912cc2448add705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Models/Rocks/StoneSize2.fbx using Guid(92aa5837890e21142912cc2448add705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '128b172e7ed86fd68a8eb89031d0ff5b') in 0.029373 seconds 
+  Import took 0.031941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/rpg-tutorial-assets/Models/Rocks/StoneSize1.fbx
+  artifactKey: Guid(c6d39ac09a98bcd419878ee8bd3430f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/rpg-tutorial-assets/Models/Rocks/StoneSize1.fbx using Guid(c6d39ac09a98bcd419878ee8bd3430f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aa9d745c19d2ec42a1a3f6b3ae2d00a') in 0.034003 seconds 
+  Import took 0.036494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.025634 seconds.
+  path: Assets/rpg-tutorial-assets/Models/Rocks/StoneSize2.fbx
+  artifactKey: Guid(7c837bd67b57d204b9919b49bce88e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/rpg-tutorial-assets/Models/Rocks/StoneSize2.fbx using Guid(7c837bd67b57d204b9919b49bce88e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1b2499488ee4d990be3caf63e1e3e48') in 0.019200 seconds 
+  Import took 0.022034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Environment/Models/Rocks/StoneSize1.fbx
+  artifactKey: Guid(7e3ed52b59b21dc49a041acadcdc6fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Models/Rocks/StoneSize1.fbx using Guid(7e3ed52b59b21dc49a041acadcdc6fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e67427d282d2e589ee0620ab368175') in 0.017851 seconds 
+  Import took 0.020458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018953 seconds.
+  path: Assets/rpg-tutorial-assets/Models/Rocks/StoneSize3.fbx
+  artifactKey: Guid(726ee2537dd2ecd47a876883c408480f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/rpg-tutorial-assets/Models/Rocks/StoneSize3.fbx using Guid(726ee2537dd2ecd47a876883c408480f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c20f28d66942b7e775790c38313be35e') in 0.018586 seconds 
+  Import took 0.021102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Environment/PostProcessing/Utilities/CustomMotionTexture/Models/WheelMovecs.FBX
+  artifactKey: Guid(c4abfbff3b9d442f4b435849d2d2124c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/PostProcessing/Utilities/CustomMotionTexture/Models/WheelMovecs.FBX using Guid(c4abfbff3b9d442f4b435849d2d2124c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d610c577ee1e6090d3cae24f9500a81') in 0.025181 seconds 
+  Import took 0.027582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.423358 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/PT_Lowpoly_Armors_Female_Moduar_Free.fbx
+  artifactKey: Guid(0cc5e7d23b6879a4d8b3644f02cd8430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/PT_Lowpoly_Armors_Female_Moduar_Free.fbx using Guid(0cc5e7d23b6879a4d8b3644f02cd8430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c76ad65266a460a220d26880e924eb') in 0.833094 seconds 
+  Import took 0.838886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_01_A_body.fbx
+  artifactKey: Guid(89573ac6d3155e84886a011be989cce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_01_A_body.fbx using Guid(89573ac6d3155e84886a011be989cce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0078464f63a3dcc4054fadea7515d01') in 0.057708 seconds 
+  Import took 0.060243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_01_A_boots.fbx
+  artifactKey: Guid(84411a450b86f10418a42d3ed430c238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_01_A_boots.fbx using Guid(84411a450b86f10418a42d3ed430c238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0ea3e079d3d9d0e55cd92cd718c0691') in 0.047710 seconds 
+  Import took 0.050254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_01_A_gauntlets.fbx
+  artifactKey: Guid(94c7848f786cb364b8373b9e4ec88832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_01_A_gauntlets.fbx using Guid(94c7848f786cb364b8373b9e4ec88832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27f614fdec43c9daa55059dbcfdec832') in 0.047521 seconds 
+  Import took 0.050134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_01_A_cape.fbx
+  artifactKey: Guid(83a7d6cf15a6d604a9135a4b01d9dd0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_01_A_cape.fbx using Guid(83a7d6cf15a6d604a9135a4b01d9dd0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49bbd05662ed4bb87cf274ca05fec7b5') in 0.055412 seconds 
+  Import took 0.057944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.288289 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_01_A_helmet.fbx
+  artifactKey: Guid(20757f9d318d53b4c8333c4a3df11188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_01_A_helmet.fbx using Guid(20757f9d318d53b4c8333c4a3df11188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d18a6c1b298268100bbad5ce2e4a9b2') in 0.062565 seconds 
+  Import took 0.066999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_01_A_legs.fbx
+  artifactKey: Guid(62d16383561349a498e36a3b3911f65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_01_A_legs.fbx using Guid(62d16383561349a498e36a3b3911f65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1158e736405760d2067aaf3027455d42') in 0.049852 seconds 
+  Import took 0.052412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.244153 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_05_C_body.fbx
+  artifactKey: Guid(bcd7a0716034d5243a1b7c088b977f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_05_C_body.fbx using Guid(bcd7a0716034d5243a1b7c088b977f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '779b44e6efe46c2691771f207cda0c6d') in 0.055818 seconds 
+  Import took 0.059315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_05_C_cape.fbx
+  artifactKey: Guid(c3ab3a93cc1590f4da35b660270c9d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_05_C_cape.fbx using Guid(c3ab3a93cc1590f4da35b660270c9d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7753ce69a6963c88e46c95398db78c03') in 0.053888 seconds 
+  Import took 0.056483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_05_C_gauntlets.fbx
+  artifactKey: Guid(e0a8a1c8f2f779d4d8be30da5841c2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_05_C_gauntlets.fbx using Guid(e0a8a1c8f2f779d4d8be30da5841c2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c903597a09fa9725d578c4297e50939') in 0.045644 seconds 
+  Import took 0.048249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_05_C_boots.fbx
+  artifactKey: Guid(bd8b8837a900cdd47841123164e2faea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_05_C_boots.fbx using Guid(bd8b8837a900cdd47841123164e2faea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abec592925ada24ff9f84c59696d946a') in 0.064053 seconds 
+  Import took 0.066664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.197405 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_05_C_helmet.fbx
+  artifactKey: Guid(f5926a1b888957547846d0ff8132b27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_05_C_helmet.fbx using Guid(f5926a1b888957547846d0ff8132b27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6ff765c427a487bff5f9f92fff4f18b') in 0.054091 seconds 
+  Import took 0.057330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_05_C_legs.fbx
+  artifactKey: Guid(f24484deeb14ca24d8ff448bee872b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_05_C_legs.fbx using Guid(f24484deeb14ca24d8ff448bee872b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b435587e53504b4f0022136ff589efbd') in 0.049247 seconds 
+  Import took 0.051779 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.187277 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_cloth_00_body.fbx
+  artifactKey: Guid(97fbe789fa01de74bb071b86f88ffbcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_cloth_00_body.fbx using Guid(97fbe789fa01de74bb071b86f88ffbcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c802e9468cb666c9c997319c78d80d7') in 0.049824 seconds 
+  Import took 0.054154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_cloth_00_boots.fbx
+  artifactKey: Guid(5dd0f1492d4e78f4eb25df6be558fa12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_cloth_00_boots.fbx using Guid(5dd0f1492d4e78f4eb25df6be558fa12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80623316e70fc40520c874f239b84c78') in 0.045138 seconds 
+  Import took 0.047670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.188341 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_cloth_00_gauntlets.fbx
+  artifactKey: Guid(bc8ad36b5a7b51d4ab4923e5ca98dde9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_cloth_00_gauntlets.fbx using Guid(bc8ad36b5a7b51d4ab4923e5ca98dde9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd4b9e8669823e517fba7cc523517049') in 0.047300 seconds 
+  Import took 0.053492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_hair_01.fbx
+  artifactKey: Guid(4c9ee7bc888f0e04da9dc4d5968b55e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_hair_01.fbx using Guid(4c9ee7bc888f0e04da9dc4d5968b55e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd263c60f058e4271f66054a9d6d66064') in 0.047453 seconds 
+  Import took 0.050100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_cloth_00_legs.fbx
+  artifactKey: Guid(b68e01fd2bc2ef544ab1634b4f44127a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_cloth_00_legs.fbx using Guid(b68e01fd2bc2ef544ab1634b4f44127a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e75eed39f8b0a15de08d3036f3368cba') in 0.046090 seconds 
+  Import took 0.048751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.677767 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_hair_30.fbx
+  artifactKey: Guid(fca68616c3fa5b84b81d1096a1f86331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_hair_30.fbx using Guid(fca68616c3fa5b84b81d1096a1f86331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55f5482bc79f6d45a2b01e3b97998e1e') in 0.162264 seconds 
+  Import took 0.165077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_head_01.fbx
+  artifactKey: Guid(996143fa52f57594aa60bbeb6b04105c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_head_01.fbx using Guid(996143fa52f57594aa60bbeb6b04105c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b6b72189a978daa7fcaf95e24618a2') in 0.221622 seconds 
+  Import took 0.224344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_naked_body.fbx
+  artifactKey: Guid(ea1e2f94f08324447a19c6f3e06dd312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_naked_body.fbx using Guid(ea1e2f94f08324447a19c6f3e06dd312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8aa612e643eb47e87b2cd6eef164bb6') in 0.124153 seconds 
+  Import took 0.126790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_head_10.fbx
+  artifactKey: Guid(be671a13ff596294bbbbf53eaade60a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_head_10.fbx using Guid(be671a13ff596294bbbbf53eaade60a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0305a996c877f18d472381f28cc3b3f') in 0.135977 seconds 
+  Import took 0.138599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.404813 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_naked_boots.fbx
+  artifactKey: Guid(2c288b11ab9cc264bb80af1af11e9ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_naked_boots.fbx using Guid(2c288b11ab9cc264bb80af1af11e9ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91e5bcc986ade6b0ff8cd6605b9a392b') in 0.180250 seconds 
+  Import took 0.183975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_naked_gauntlets.fbx
+  artifactKey: Guid(9fc465004b8b3654a8f5bfaaf6718b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_naked_gauntlets.fbx using Guid(9fc465004b8b3654a8f5bfaaf6718b18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f669b4a205fdd1f2fed56b5cd3e84585') in 0.171647 seconds 
+  Import took 0.174264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_naked_legs.fbx
+  artifactKey: Guid(be9b20348edec074b930a77e3e56fcb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Female_Armor_naked_legs.fbx using Guid(be9b20348edec074b930a77e3e56fcb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfc6478f3cb339af422feefc8fd1c9b3') in 0.179241 seconds 
+  Import took 0.182003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Rocks/PT_Generic_Rock_01.fbx
+  artifactKey: Guid(f226223b3a11d2d4b980aaa520301583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Rocks/PT_Generic_Rock_01.fbx using Guid(f226223b3a11d2d4b980aaa520301583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5e2465d1d474b8842f21012f31a78b6') in 0.441262 seconds 
+  Import took 0.443765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.517840 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Generic_Tree_01_green.fbx
+  artifactKey: Guid(92485ef01ec03d8438fe7af0b3409dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Trees/PT_Generic_Tree_01_green.fbx using Guid(92485ef01ec03d8438fe7af0b3409dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0ed5074f41cbfd8614090179af9d90e') in 1.265003 seconds 
+  Import took 1.268570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Male_Armor_01_A_boots.fbx
+  artifactKey: Guid(efa7df41a54ef4b44a36a747a22bc092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Male_Armor_01_A_boots.fbx using Guid(efa7df41a54ef4b44a36a747a22bc092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c894ff1df8a90c513ab6c09b2a1b15f1') in 0.055084 seconds 
+  Import took 0.058095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/PT_Lowpoly_Armors_Male_Moduar_Free.fbx
+  artifactKey: Guid(45f944a4396b0a54398eb1abe6743296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/PT_Lowpoly_Armors_Male_Moduar_Free.fbx using Guid(45f944a4396b0a54398eb1abe6743296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b8f5d862139fb17d7a49507df132a4') in 0.289997 seconds 
+  Import took 0.293055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Male_Armor_01_A_body.fbx
+  artifactKey: Guid(1143873eeed152343ae87ee2769fab81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Characters/Sources/Modular_Armors/Meshes/Separate_Parts/PT_Male_Armor_01_A_body.fbx using Guid(1143873eeed152343ae87ee2769fab81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a021ecaee2dc135addc469f6b7293194') in 0.066431 seconds 
+  Import took 0.069040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Plants/PT_Grass_01.fbx
+  artifactKey: Guid(6234fe485482da04fbc6bce8b1b71dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Environments/Sources/Meshes/Plants/PT_Grass_01.fbx using Guid(6234fe485482da04fbc6bce8b1b71dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10c9fef3be2953786790abcedd8b5b50') in 0.463396 seconds 
+  Import took 0.465829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.566047 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Weapons/Sources/Meshes/PT_Medieval_ShortWaraxe_01_a.fbx
+  artifactKey: Guid(26d0f06f49ccffc4aa3914dcc228acab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Weapons/Sources/Meshes/PT_Medieval_ShortWaraxe_01_a.fbx using Guid(26d0f06f49ccffc4aa3914dcc228acab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bd48754be270406ee5f562aa349eaa3') in 0.616838 seconds 
+  Import took 0.619633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.851119 seconds.
+  path: Assets/Environment/PostProcessing/Editor/Models/AmbientOcclusionModelEditor.cs
+  artifactKey: Guid(9fcb710e23a5a0546a3b8b0ca28c1720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/PostProcessing/Editor/Models/AmbientOcclusionModelEditor.cs using Guid(9fcb710e23a5a0546a3b8b0ca28c1720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a175650115a88c80d9002622a9bb5625') in 0.011787 seconds 
+  Import took 0.015976 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003883 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.874 seconds
+Domain Reload Profiling:
+	ReloadAssembly (874ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (719ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (251ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (272ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (186ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1608 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 119.1 MB.
+System memory in use after: 117.1 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 2105.
+Total: 3.312200 ms (FindLiveObjects: 0.145500 ms CreateObjectMapping: 0.054200 ms MarkObjects: 2.420700 ms  DeleteObjects: 0.690900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
